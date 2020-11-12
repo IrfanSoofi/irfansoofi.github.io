@@ -1,0 +1,156 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(240, 240, 240);
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+#left {
+	flex: 22%;
+	padding: 20px;
+}
+#center {
+	flex: 1%;
+}
+#right {
+	flex: 72%;
+	padding: 20px;
+}
+#title {
+	font-family: "Segoe UI";
+	font-size: 1.4rem;
+	text-align: center;
+	color: rgb(150, 10, 10);
+}
+#nav-bar ul li {
+	list-style-type: none;
+	margin-left: 0;
+	width: 100%;
+	height: 50px;
+	
+}
+.nav-link {
+	padding: 10px 5px;
+	display: block;
+	text-align: left;
+	font-family: "Segoe UI";
+	font-size: 1rem;
+	text-decoration: none;
+	color: rgb(150, 10, 10);
+}
+.nav-link:hover {
+	color: rgb(240, 240, 240);
+	background-color: rgb(150, 10, 10);
+}
+#main-doc {
+	font-family: "Segoe UI";
+	width: 100%;
+}
+#heading {
+	font-family: "Segoe UI";
+	font-size: 1.4rem;
+	text-align: left;
+	color: rgb(150, 10, 10);
+}
+p {
+	font-size: 1rem;
+}
+code {
+	background: rgb(255, 255, 255);
+	display: block;
+	text-align: left;
+	white-space: pre;
+	padding: 15px;
+	margin: 10px;
+	position: relative;
+	word-break: normal;
+	word-wrap: normal;
+	border-radius: 5px;
+	font-size: 1.1rem;
+	color: rgb(0, 0, 255);
+}
+@media screen and (max-width: 962px) {
+	#container {
+		flex-direction: row;
+	}
+	#left {
+	flex: 22%;
+	padding: 20px;
+	}
+	
+	#right {
+	flex: 72%;
+	padding: 20px;
+	}
+	#title {
+		font-size: 1rem;		
+	}
+	#nav-bar ul li {
+		height: 80px;
+	}
+	.nav-link {
+	display: block;
+	text-align: left;
+	font-family: "Segoe UI";
+	font-size: 0.9rem;
+	text-decoration: none;
+	color: rgb(150, 10, 10);
+	}
+	code {
+	background: rgb(255, 255, 255);
+	display: block;
+	text-align: left;
+	white-space: pre;
+	padding: 5px;
+	margin: 0px;
+	position: relative;
+	word-break: normal;
+	word-wrap: normal;
+	border-radius: 5px;
+	font-size: 0.9rem;
+	color: rgb(0, 0, 255);
+}
+}
+
+		
+@media screen and (max-width: 768px) {
+  #container {
+    flex-direction: column;
+  }
+  #left {
+	flex: 22%;
+	padding: 20px;
+	}
+	#right {
+	flex: 72%;
+	padding: 20px;
+	}
+#title {
+	font-size: 1.4rem;
+	}
+#nav-bar ul li {
+	height: 50px;
+	}
+	.nav-link {
+		font-size: 1rem;
+	}
+	code {
+	background: rgb(255, 255, 255);
+	display: block;
+	text-align: left;
+	white-space: pre;
+	padding: 15px;
+	margin: 10px;
+	position: relative;
+	word-break: normal;
+	word-wrap: normal;
+	border-radius: 5px;
+	font-size: 1.1rem;
+	color: rgb(0, 0, 255);
+}
+}
