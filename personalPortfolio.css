@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: "Segoe UI";
+}
+#navbar {
+	box-sizing: border-box;
+	background-color: rgb(164, 0, 44);
+    position: sticky;
+    height: 100px;
+    top: 0;
+}
+#navbar ul{
+  text-align: right;
+  list-style: none;
+}
+#navbar ul li {
+  margin-top: 25px;
+  display: inline-block;
+}
+
+.nava {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+  align-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.nava:hover {
+	background: rgb(70, 85, 125);
+}
+#welcome-section {
+  background: rgb(50, 50, 50);
+  width: 100%;
+  height: 600px;
+  justify-content: center;
+  text-align: center;
+}
+h1 {
+  padding-top: 150px;
+  font-size: 3.6rem;
+  color: rgb(240, 240, 240);
+}
+#pone {
+  font-size: 2.0rem;
+  color: rgb(164, 0, 44);
+}
+#projects {
+  background: rgb(70, 85, 125);
+}
+#h2proj {
+	font-size: 2.4rem;
+	color: rgb(240, 240, 240);
+	margin: 0 auto 8px auto;
+	max-width: 400px;
+	border-bottom: 2px solid rgb(240, 240, 240);
+}
+img {
+	display: block;
+	width: 100%;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.project-grid > div {
+	width: 100%;
+	height: 300px;
+	background: rgb(50, 50, 50);
+}
+@media screen and (max-width: 700px) {
+	.projects {
+		padding: 6rem 1rem;
+	}
+	.pr {
+		margin; 1rem;
+	}
+	.project-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.title {
+  font-size: 1.2rem;
+  text-align: center;
+  
+  color: rgb(240, 240, 240);
+}
+.code {
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(50, 50, 50);
+}
+.project-tile {
+	text-decoration: none;
+}
+.project-tile:hover .code {
+	
+	color: rgb(255, 75, 75);
+}
+#more {
+	background: rgb(50, 50, 50);
+	width: 200px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#more:hover {
+	background: rgb(164, 0, 44);
+}
+.label {
+	font-size: 1.2rem;
+	color: rgb(240, 240, 240);
+	line-height: 40px;
+}
+#contact-section {
+	background: rgb(50, 50, 50);
+	text-align: center;
+	padding-bottom: 100px;
+}
+#h2contact {
+	padding-top: 50px;
+	color: rgb(240, 240, 240);
+	font-size: 2.4rem;  
+}
+#ptwo {
+	color: rgb(240, 240, 240);
+	font-size: 1.2rem;
+}
+.contacta {
+	font-size: 1.4rem;
+	color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+ #footer {
+	height: 150px;
+	background: rgb(50, 50, 50);
+	border-top: 4px solid rgb(164, 0, 44);   	
+}
+#left {
+	float: left;
+	width: 600px;
+	padding-top: 50px;
+	padding-left: 150px;
+	background: rgb(50, 50, 50);
+}
+#right {
+	float: left;
+	padding-top: 50px;
+	background: rgb(50, 50, 50);
+}
+.pthree {
+	font-size: 1rem;
+	color: rgb(240, 240, 240);
+}
+.contactf {
+	text-decoration: none;
+	color: rgb(240, 240, 240);
+}
