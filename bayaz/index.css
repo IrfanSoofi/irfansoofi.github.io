@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-family: 'Noto Nastaliq Urdu Draft', serif;
+  direction: rtl;
+}
+p {
+  text-align: center;
+  font-family: 'Noto Nastaliq Urdu Draft', serif;
+  font-size: 1em;
+  direction: rtl;
+}
