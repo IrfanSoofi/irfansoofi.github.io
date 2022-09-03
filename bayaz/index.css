@@ -20,3 +20,16 @@ p {
   font-size: 1em;
   direction: rtl;
 }
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-align: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
